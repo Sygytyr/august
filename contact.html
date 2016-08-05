@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Контакта форма</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="menu">
+            <li><a href="/">Головна</a></li>
+            <li><a href="about.html">Про мене</a></li>
+            <li><a href="contact.html">Контакти</a></li>
+        </ul>
+    </nav>
+
+</header>
+<section class="content">
+    <h1>Контактна форма</h1>
+    <form action="form.php" method="GET">
+        <div class="input-group">
+            <label for="user">Имя</label>
+            <input type="text" name="user" placeholder="Напишіть ваше імя" required/>
+        </div>
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="Напишіть ваш email" required/>
+        </div>
+        <div class="input-group">
+            <label for="text">Повідомлення</label>
+            <textarea name="text"  cols="30" rows="10" placeholder="Повідомлення"></textarea>
+        </div>
+        <button type="submit">Відправити</button>
+
+    </form>
+
+</section>
+
+
+
+</body>
+</html>
